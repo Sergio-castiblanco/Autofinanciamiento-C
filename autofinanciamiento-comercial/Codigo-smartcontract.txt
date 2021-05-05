@@ -1,0 +1,37 @@
+pragma solidity > 0.6.1 < 0.7.0;
+
+contract BeneficioMensual {
+    
+    address private jugador;
+    uint premio;
+    uint numeroAleatorio;
+    
+    uint private constant costoJuego = 200000000000000000; /// 0.2 ether
+    address private owner;
+    bool private jugando = false;
+    
+    event Numeros(string, uint randomnumber, string, uint numeroAdivinado, string, uint premio);
+    
+
+    constructor() public payable{
+        require(msg.value >= 100000000000000000, "El contrato se debe lanzar con al menos 0.1 Ether.");
+        owner = msg.sender;
+    }
+    
+    function adivina(uint numeroAdivinado) public payable {
+        
+        require(msg.value == 200000000000000000, "El costo de participar es de 0.2 ether.");
+        require(!jugando, "Actualmente hay otro miembro participando, espere un momento para participar.");
+        
+        uint randomnumber = uint(keccak256(abi.encodePacked(now,msg.sender))) % 10 + 1;
+        
+        if(numeroAdivinado == randomnumber){
+            
+            jugador = msg.sender;
+            premio = 1000000000000000000;
+        }
+        
+        emit Numeros("El numero genardo fue:",randomnumber, "Usted selecciono:",numeroAdivinado, "Obtuviste:", premio);
+    }
+    
+}

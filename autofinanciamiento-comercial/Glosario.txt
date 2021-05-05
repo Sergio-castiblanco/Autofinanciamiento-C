@@ -1,0 +1,19 @@
+1) Criptodivisa: Es un medio digital de intercambio que utiliza criptografía fuerte para asegurar las transacciones, controlar la creación de unidades adicionales y verificar la transferencia de activos usando tecnologías de registro distribuido.​​​​
+
+2) SmartContract: Es un programa informático que facilita, asegura, hace cumplir y ejecuta acuerdos registrados entre dos o más partes.
+
+3) Blockchain: Es una tecnología que permite la transferencia de datos de una manera completamente segura gracias a una codificación muy sofisticada.
+
+4) Mineros de Bitcoin: Son quienes ejecutan los nodos de una red cripto, y son parte fundamental del funcionamiento y la integridad de la red de cada criptomoneda.
+
+5) Mineria de Bitcoin: Se le conoce como la generación de nuevos bloques para la red Bitcoin, por analogía con la minería del oro
+
+6) Github: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador.
+
+7) Ethereum: Es una plataforma open source, que sirve para programar contratos inteligentes. La plataforma es descentralizada a diferencia de otras cadenas de bloques.
+
+8) Ether: Es una criptomoneda, del mismo modo que bitcoin, pero su principal utilidad no es ser un medio de pago. 
+
+9) Ropsten: Es una red de prueba que se usa esencialmente como un entorno de prueba antes de llevar su código a la red principal.
+
+10) Metamask: Es un software de Criptomoneda, que instalada como extensión de un navegador web, es utilizado para interactuar con la plataforma, de blockchain, Ethereum, etc...
